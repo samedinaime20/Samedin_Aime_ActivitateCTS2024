@@ -1,13 +1,11 @@
-package A_Spital.A_2;
-
 public class SpitalFactory {
     public PersonalSpital createPersonal(TipPersonal tipPersonal) throws Exception{
         switch (tipPersonal){
-            case brancardier:
+            case TipPersonal.brancardier:
                 return new Brancardier();
-            case asistent:
+            case TipPersonal.asistent:
                 return new Asistent();
-            case medic:
+            case TipPersonal.medic:
                 return new Medic();
             default:
                 throw new Exception("alt tip de personal nu exista");

@@ -1,5 +1,3 @@
-package A_Spital.A_2;
-
 public class SpitalSingletonFactory {
     private static SpitalSingletonFactory instanta = null;
     public SpitalSingletonFactory(){
@@ -15,11 +13,11 @@ public class SpitalSingletonFactory {
     public PersonalSpital createPersonal(TipPersonal tipPersonal) throws Exception
     {
         switch (tipPersonal){
-            case brancardier:
+            case TipPersonal.brancardier:
                 return new Brancardier();
-            case asistent:
+            case TipPersonal.asistent:
                 return new Asistent();
-            case medic:
+            case TipPersonal.medic:
                 return new Medic();
             default :
                 throw new Exception("Nu avem alata optiune");

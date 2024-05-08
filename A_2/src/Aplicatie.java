@@ -1,5 +1,3 @@
-package A_Spital.A_2;
-
 public class Aplicatie {
     public static void main(String[] args) {
         SpitalFactory personal1 = new SpitalFactory();

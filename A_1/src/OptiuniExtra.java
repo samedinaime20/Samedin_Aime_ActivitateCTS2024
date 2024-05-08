@@ -1,5 +1,3 @@
-package A_Spital.A_1;
-
 public class OptiuniExtra {
     private boolean isPatRabatabil;
     private boolean hasMicDejun;
