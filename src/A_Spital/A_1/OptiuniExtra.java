@@ -59,7 +59,7 @@ public class OptiuniExtra {
                "isPatRabatabil=" + isPatRabatabil+
                ", hasMicDejun=" + hasMicDejun+
                ", hasPapuciCamera=" + hasPapuciCamera+
-               ", hasHalatInterior" + hasHalatInterior+
+               ", hasHalatInterior=" + hasHalatInterior+
                ']';
     }
 }
