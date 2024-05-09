@@ -20,6 +20,6 @@ public class SpitalSingletonFactory {
             case TipPersonal.medic:
                 return new Medic();
             default :
-                throw new Exception("Nu avem alata optiune");
+                throw new Exception("Nu avem alta optiune");
         }
     }}
